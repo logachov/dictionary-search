@@ -1,12 +1,15 @@
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.container {
+  width: 600px;
+  min-height: 400px;
+  padding: 20px;
+  margin: 30px auto;
   color: #2277aa;
+  border-radius: 4px;
+  background-color: #ffffff;
 }
 
 .logo {
-  margin: 30px 0;
-  width: 80px;
+  display: block;
+  margin: 20px auto;
+  width: 50px;
 }
