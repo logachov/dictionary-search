@@ -14,13 +14,12 @@ export default function Dictionary() {
 
     function search(event) {
         event.preventDefault();
-        let urlApi = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
+        let urlApi = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${word}`;
         axios.get(urlApi).then(apiResponse);
     }
 
     function newWord(event) {
         setWord(event.target.value);
-        console.log(event.target.value);
     }
 
     return (
@@ -31,6 +30,5 @@ export default function Dictionary() {
             </form>
             <Results results={results} />
         </div>
-
     )
 }
