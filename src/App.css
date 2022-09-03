@@ -5,11 +5,13 @@
   margin: 30px auto;
   color: #2277aa;
   border-radius: 4px;
-  background-color: #ffffff;
+  min-width: 300px;
+
 }
 
 .logo {
   display: block;
   margin: 20px auto;
   width: 50px;
+  border-radius: 7px;
 }
