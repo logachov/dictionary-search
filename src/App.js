@@ -11,10 +11,10 @@ function App() {
           <img src={logo} className="logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary defaultKeyword="peace" />
+          <Dictionary defaultKeyword="code" />
         </main>
         <footer className="footer">
-          <small>Coded by Olesia Lohachova</small>
+          <p>Coded by Olesia Lohachova and is open-sourced on <a href='https://github.com/logachov/dictionary-search' target="_blank" rel='noreferrer'>GitHub</a> and hosted on <a href='https://unique-bienenstitch-d7dd0b.netlify.app/' target="_blank" rel='noreferrer'>Netlify</a></p>
         </footer>
       </div>
     </div>

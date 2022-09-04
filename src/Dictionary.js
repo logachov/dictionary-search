@@ -51,7 +51,7 @@ export default function Dictionary(props) {
                             autoFocus="on" onChange={newWord} defaultValue={props.defaultKeyword} />
                     </form>
                     <div className="hint">
-                        suggested words: peace, man, apple...
+                        for example: peace, life, freedom...
                     </div>
                 </section>
                 <Results results={results} />
