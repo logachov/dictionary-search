@@ -10,7 +10,6 @@ export default function Phonetics(props) {
             <span>
                 {props.phonetic.text}
             </span>
-
         </div>
     );
 }

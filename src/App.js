@@ -7,12 +7,16 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <img src={logo} className="logo img-fluid" alt="logo" />
-
-        <Dictionary />
+        <header className="header">
+          <img src={logo} className="logo img-fluid" alt="logo" />
+        </header>
+        <main>
+          <Dictionary defaultKeyword="peace" />
+        </main>
+        <footer className="footer">
+          <small>Coded by Olesia Lohachova</small>
+        </footer>
       </div>
-
-
     </div>
   );
 }

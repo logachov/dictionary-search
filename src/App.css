@@ -15,3 +15,16 @@
   width: 50px;
   border-radius: 7px;
 }
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer {
+  margin: 30px auto;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
